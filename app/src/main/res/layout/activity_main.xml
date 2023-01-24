@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="LabelFor"
+    >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="242dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/txtTitulo"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtFrom"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/tvFrom"
+        android:autofillHints="0"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:background="@drawable/bordesedit"
+        android:clickable="false"
+        android:focusable="false"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="@string/tvFrom"
+        android:textColor="#000"
+        android:textIsSelectable="false"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/txtTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="@string/txtTo"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/tvTo"
+        android:autofillHints="0"
+        android:inputType="number"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:background="@drawable/bordesedit"
+        android:minHeight="48dp"
+        android:text="@string/tvTo"
+        android:textColor="#000"
+        android:clickable="false"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btnGenerar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="58dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/btnGenerar"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/degradado"
+        />
+
+    <TextView
+        android:id="@+id/txtPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtPregunta"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:autofillHints="0"
+        android:id="@+id/txtRespuesta"
+        android:inputType="number"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bordesedit"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textAlignment="center"
+
+        />
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="58dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:text="@string/btnVerificar"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/degradado"
+        />
+
+</LinearLayout>

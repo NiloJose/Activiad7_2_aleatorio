@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Activiad7_2_aleatorio</string>
+    <string name="txtTitulo">Random Number Generator</string>
+    <string name="txtFrom">FROM</string>
+    <string name="txtTo">TO</string>
+    <string name="btnGenerate">GENERATE</string>
+    <string name="btnCheck">CHECK</string>
+    <string name="tvFrom">1</string>
+    <string name="tvTo">100000</string>
+    <string name="btnGenerar">GENERATE</string>
+    <string name="txtPregunta">¿What number appeared??</string>
+    <string name="btnVerificar">CHECK</string>
+</resources>
